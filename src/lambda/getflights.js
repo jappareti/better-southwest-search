@@ -1,4 +1,3 @@
-import * as R from "ramda";
 import axios from "axios";
 
 const X_API_KEY = "l7xx12ebcbc825eb480faa276e7f192d98d1";

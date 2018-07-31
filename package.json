@@ -1,10 +1,12 @@
 {
-  "name": "sudoeste",
+  "name": "better-southwest-search",
   "version": "0.1.0",
-  "private": true,
+  "repository": "git@github.com:jappareti/better-southwest-search.git",
+  "author": "Jeff Appareti <jappareti@gmail.com>",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "antd": "^3.4.0",
-    "apollo-link": "^1.2.2",
     "axios": "^0.18.0",
     "moment": "^2.22.0",
     "moment-duration-format": "^2.2.2",
@@ -12,15 +14,19 @@
     "netlify-lambda": "^0.3.1",
     "ramda": "^0.25.0",
     "react": "^16.3.1",
+    "react-apollo": "^2.1.6",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired start",
+    "start":
+      "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired start",
     "start:lambda": "netlify-lambda serve src/lambda",
-    "build": "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired build",
+    "build":
+      "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired build",
     "build:lambda": "netlify-lambda build src/lambda",
-    "test": "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired test --env=jsdom",
+    "test":
+      "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged"
   },
