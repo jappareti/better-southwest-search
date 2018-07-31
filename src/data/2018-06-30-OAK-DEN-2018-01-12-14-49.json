@@ -1,0 +1,1378 @@
+{
+  "trips": [
+    {
+      "travelDate": "2018-06-30",
+      "originationAirportCode": "OAK",
+      "destinationAirportCode": "DEN",
+      "lowestFareProduct": {
+        "fareType": "Wanna Get Away",
+        "cents": 11400,
+        "points": 0
+      },
+      "airProducts": [
+        {
+          "durationMinutes": 285,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "LAX",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4235"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4235"
+              },
+              "departureDateTime": "2018-06-30T05:40",
+              "arrivalDateTime": "2018-06-30T07:10",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "LAX",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5243"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5243"
+              },
+              "departureDateTime": "2018-06-30T08:10",
+              "arrivalDateTime": "2018-06-30T11:25",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAwNTQwLDIwMTgwNjMwMTEyNXxPQUstTEFYLExBWC1ERU58V040MjM1LFdONTI0M3xLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA1NDAsMjAxODA2MzAxMTI1fE9BSy1MQVgsTEFYLURFTnxXTjQyMzUsV041MjQzfFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "UkxBN1BOUk8vUkxBN1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA1NDAsMjAxODA2MzAxMTI1fE9BSy1MQVgsTEFYLURFTnxXTjQyMzUsV041MjQzfFJ8MjI0MDB8MjI0MDB8MjI0MDB8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "3",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "R",
+              "fareBasisCode": "RLA7PNRO/RLA7PNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 22400,
+                "discountedTotalFareCents": 22400,
+                "accrualPoints": 1122
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 150,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4244"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4244"
+              },
+              "departureDateTime": "2018-06-30T06:00",
+              "arrivalDateTime": "2018-06-30T09:30",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMDYwMCwyMDE4MDYzMDA5MzB8T0FLLURFTnxXTjQyNDR8S3w0MTE5N3w0MTE5N3w0MTE5N3xBRFR8MXx8fDczSA==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41197,
+                "discountedTotalFareCents": 41197,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA2MDAsMjAxODA2MzAwOTMwfE9BSy1ERU58V040MjQ0fFl8Mzg5OTh8Mzg5OTh8Mzg5OTh8QURUfDF8fHw3M0g=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 38998,
+                "discountedTotalFareCents": 38998,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "T0xOVVBOUnxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMDYwMCwyMDE4MDYzMDA5MzB8T0FLLURFTnxXTjQyNDR8T3wxMzU5OHwxMzU5OHwxMzU5OHxBRFR8MXx8fDczSA==",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "4",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "O",
+              "fareBasisCode": "OLNUPNR",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 13598,
+                "discountedTotalFareCents": 13598,
+                "accrualPoints": 680
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 300,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "SAN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5623"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5623"
+              },
+              "departureDateTime": "2018-06-30T07:00",
+              "arrivalDateTime": "2018-06-30T08:30",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "SAN",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3726"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3726"
+              },
+              "departureDateTime": "2018-06-30T09:45",
+              "arrivalDateTime": "2018-06-30T13:00",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAwNzAwLDIwMTgwNjMwMTMwMHxPQUstU0FOLFNBTi1ERU58V041NjIzLFdOMzcyNnxLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA3MDAsMjAxODA2MzAxMzAwfE9BSy1TQU4sU0FOLURFTnxXTjU2MjMsV04zNzI2fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "UkxBN1BOUk8vUkxBN1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA3MDAsMjAxODA2MzAxMzAwfE9BSy1TQU4sU0FOLURFTnxXTjU2MjMsV04zNzI2fFJ8MjI0MDB8MjI0MDB8MjI0MDB8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "3",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "R",
+              "fareBasisCode": "RLA7PNRO/RLA7PNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 22400,
+                "discountedTotalFareCents": 22400,
+                "accrualPoints": 1122
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 145,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5627"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5627"
+              },
+              "departureDateTime": "2018-06-30T09:00",
+              "arrivalDateTime": "2018-06-30T12:25",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMDkwMCwyMDE4MDYzMDEyMjV8T0FLLURFTnxXTjU2Mjd8S3w0MTE5N3w0MTE5N3w0MTE5N3xBRFR8MXx8fDczSA==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41197,
+                "discountedTotalFareCents": 41197,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA5MDAsMjAxODA2MzAxMjI1fE9BSy1ERU58V041NjI3fFl8Mzg5OTh8Mzg5OTh8Mzg5OTh8QURUfDF8fHw3M0g=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 38998,
+                "discountedTotalFareCents": 38998,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "V0xOQ1BOUnxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMDkwMCwyMDE4MDYzMDEyMjV8T0FLLURFTnxXTjU2Mjd8V3wxODU5OHwxODU5OHwxODU5OHxBRFR8MXx8fDczSA==",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "4",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "W",
+              "fareBasisCode": "WLNCPNR",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 18598,
+                "discountedTotalFareCents": 18598,
+                "accrualPoints": 959
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 240,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "BUR",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5763"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5763"
+              },
+              "departureDateTime": "2018-06-30T09:00",
+              "arrivalDateTime": "2018-06-30T10:10",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "BUR",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5708"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5708"
+              },
+              "departureDateTime": "2018-06-30T10:45",
+              "arrivalDateTime": "2018-06-30T14:00",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAwOTAwLDIwMTgwNjMwMTQwMHxPQUstQlVSLEJVUi1ERU58V041NzYzLFdONTcwOHxLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA5MDAsMjAxODA2MzAxNDAwfE9BSy1CVVIsQlVSLURFTnxXTjU3NjMsV041NzA4fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "T0xBQ1BOUk8vT0xBQ1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDA5MDAsMjAxODA2MzAxNDAwfE9BSy1CVVIsQlVSLURFTnxXTjU3NjMsV041NzA4fE98MTk0MDB8MTk0MDB8MTk0MDB8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "5",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "O",
+              "fareBasisCode": "OLACPNRO/OLACPNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 19400,
+                "discountedTotalFareCents": 19400,
+                "accrualPoints": 955
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 220,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4838"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4838"
+              },
+              "departureDateTime": "2018-06-30T11:05",
+              "arrivalDateTime": "2018-06-30T15:45",
+              "numberOfStops": 1,
+              "stopAirportCodes": ["BOI"],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTEwNSwyMDE4MDYzMDE1NDV8T0FLLURFTnxXTjQ4Mzh8S3w0MTYxN3w0MTYxN3w0MTYxN3xBRFR8MXx8fDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41617,
+                "discountedTotalFareCents": 41617,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExMDUsMjAxODA2MzAxNTQ1fE9BSy1ERU58V040ODM4fFl8Mzk0MTh8Mzk0MTh8Mzk0MTh8QURUfDF8fHw3M1c=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39418,
+                "discountedTotalFareCents": 39418,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "V0xBN1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExMDUsMjAxODA2MzAxNTQ1fE9BSy1ERU58V040ODM4fFd8MjQ5NTB8MjQ5NTB8MjQ5NTB8QURUfDF8fHw3M1c=",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "3",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "W",
+              "fareBasisCode": "WLA7PNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 24950,
+                "discountedTotalFareCents": 24950,
+                "accrualPoints": 1290
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 295,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "SLC",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3512"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3512"
+              },
+              "departureDateTime": "2018-06-30T11:05",
+              "arrivalDateTime": "2018-06-30T13:45",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "SLC",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3356"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3356"
+              },
+              "departureDateTime": "2018-06-30T15:35",
+              "arrivalDateTime": "2018-06-30T17:00",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxMTA1LDIwMTgwNjMwMTcwMHxPQUstU0xDLFNMQy1ERU58V04zNTEyLFdOMzM1NnxLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNILDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExMDUsMjAxODA2MzAxNzAwfE9BSy1TTEMsU0xDLURFTnxXTjM1MTIsV04zMzU2fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M0gsNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "fEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxMTA1LDIwMTgwNjMwMTcwMHxPQUstU0xDLFNMQy1ERU58V04zNTEyLFdOMzM1NnxVTkFWQUlMQUJMRXwwfDB8MHxVTkFWQUlMQUJMRXwxfHx8NzNILDczVw==",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "0",
+              "unavailabilityReason": "INSUFFICIENT_INVENTORY",
+              "bookingCode": "UNAVAILABLE",
+              "fareBasisCode": null,
+              "paxPricingType": "UNAVAILABLE",
+              "currencyPrice": {
+                "totalFareCents": 0,
+                "discountedTotalFareCents": 0,
+                "accrualPoints": 0
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 280,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "PDX",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5685"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5685"
+              },
+              "departureDateTime": "2018-06-30T11:10",
+              "arrivalDateTime": "2018-06-30T12:45",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "PDX",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3538"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3538"
+              },
+              "departureDateTime": "2018-06-30T13:20",
+              "arrivalDateTime": "2018-06-30T16:50",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxMTEwLDIwMTgwNjMwMTY1MHxPQUstUERYLFBEWC1ERU58V041Njg1LFdOMzUzOHxLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczSA==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExMTAsMjAxODA2MzAxNjUwfE9BSy1QRFgsUERYLURFTnxXTjU2ODUsV04zNTM4fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNI",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "UUxBM1BOUk8vUUxBM1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExMTAsMjAxODA2MzAxNjUwfE9BSy1QRFgsUERYLURFTnxXTjU2ODUsV04zNTM4fFF8MzQ0MDB8MzQ0MDB8MzQ0MDB8QURUfDF8fHw3M1csNzNI",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "3",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Q",
+              "fareBasisCode": "QLA3PNRO/QLA3PNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 34400,
+                "discountedTotalFareCents": 34400,
+                "accrualPoints": 1792
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 215,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4213"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4213"
+              },
+              "departureDateTime": "2018-06-30T11:30",
+              "arrivalDateTime": "2018-06-30T16:05",
+              "numberOfStops": 1,
+              "stopAirportCodes": ["RNO"],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTEzMCwyMDE4MDYzMDE2MDV8T0FLLURFTnxXTjQyMTN8S3w0MTYxN3w0MTYxN3w0MTYxN3xBRFR8MXx8fDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41617,
+                "discountedTotalFareCents": 41617,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExMzAsMjAxODA2MzAxNjA1fE9BSy1ERU58V040MjEzfFl8Mzk0MTh8Mzk0MTh8Mzk0MTh8QURUfDF8fHw3M1c=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39418,
+                "discountedTotalFareCents": 39418,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "SExBM1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExMzAsMjAxODA2MzAxNjA1fE9BSy1ERU58V040MjEzfEh8Mjk5NTF8Mjk5NTF8Mjk5NTF8QURUfDF8fHw3M1c=",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "5",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "H",
+              "fareBasisCode": "HLA3PNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 29951,
+                "discountedTotalFareCents": 29951,
+                "accrualPoints": 1569
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 230,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4997"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4997"
+              },
+              "departureDateTime": "2018-06-30T11:55",
+              "arrivalDateTime": "2018-06-30T16:45",
+              "numberOfStops": 1,
+              "stopAirportCodes": ["ONT"],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTE1NSwyMDE4MDYzMDE2NDV8T0FLLURFTnxXTjQ5OTd8S3w0MTYxN3w0MTYxN3w0MTYxN3xBRFR8MXx8fDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41617,
+                "discountedTotalFareCents": 41617,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExNTUsMjAxODA2MzAxNjQ1fE9BSy1ERU58V040OTk3fFl8Mzk0MTh8Mzk0MTh8Mzk0MTh8QURUfDF8fHw3M1c=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39418,
+                "discountedTotalFareCents": 39418,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "T0xBQ1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDExNTUsMjAxODA2MzAxNjQ1fE9BSy1ERU58V040OTk3fE98MTg5NTB8MTg5NTB8MTg5NTB8QURUfDF8fHw3M1c=",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "1",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "O",
+              "fareBasisCode": "OLACPNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 18950,
+                "discountedTotalFareCents": 18950,
+                "accrualPoints": 955
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 145,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5616"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5616"
+              },
+              "departureDateTime": "2018-06-30T13:30",
+              "arrivalDateTime": "2018-06-30T16:55",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTMzMCwyMDE4MDYzMDE2NTV8T0FLLURFTnxXTjU2MTZ8S3w0MTE5N3w0MTE5N3w0MTE5N3xBRFR8MXx8fDdNOA==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41197,
+                "discountedTotalFareCents": 41197,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDEzMzAsMjAxODA2MzAxNjU1fE9BSy1ERU58V041NjE2fFl8Mzg5OTh8Mzg5OTh8Mzg5OTh8QURUfDF8fHw3TTg=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 38998,
+                "discountedTotalFareCents": 38998,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "T0xOVVBOUnxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTMzMCwyMDE4MDYzMDE2NTV8T0FLLURFTnxXTjU2MTZ8T3wxMzU5OHwxMzU5OHwxMzU5OHxBRFR8MXx8fDdNOA==",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "3",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "O",
+              "fareBasisCode": "OLNUPNR",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 13598,
+                "discountedTotalFareCents": 13598,
+                "accrualPoints": 680
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 270,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "SNA",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4687"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4687"
+              },
+              "departureDateTime": "2018-06-30T14:45",
+              "arrivalDateTime": "2018-06-30T16:05",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "SNA",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5736"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5736"
+              },
+              "departureDateTime": "2018-06-30T17:00",
+              "arrivalDateTime": "2018-06-30T20:15",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxNDQ1LDIwMTgwNjMwMjAxNXxPQUstU05BLFNOQS1ERU58V040Njg3LFdONTczNnxLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE0NDUsMjAxODA2MzAyMDE1fE9BSy1TTkEsU05BLURFTnxXTjQ2ODcsV041NzM2fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "T0xBQ1BOUk8vT0xBQ1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE0NDUsMjAxODA2MzAyMDE1fE9BSy1TTkEsU05BLURFTnxXTjQ2ODcsV041NzM2fE98MTk0MDB8MTk0MDB8MTk0MDB8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "1",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "O",
+              "fareBasisCode": "OLACPNRO/OLACPNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 19400,
+                "discountedTotalFareCents": 19400,
+                "accrualPoints": 955
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 280,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "LAS",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5760"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5760"
+              },
+              "departureDateTime": "2018-06-30T15:35",
+              "arrivalDateTime": "2018-06-30T17:00",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "LAS",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5087"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5087"
+              },
+              "departureDateTime": "2018-06-30T18:25",
+              "arrivalDateTime": "2018-06-30T21:15",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxNTM1LDIwMTgwNjMwMjExNXxPQUstTEFTLExBUy1ERU58V041NzYwLFdONTA4N3xLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE1MzUsMjAxODA2MzAyMTE1fE9BSy1MQVMsTEFTLURFTnxXTjU3NjAsV041MDg3fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "T0xBQ1BOUk8vT0xBQ1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE1MzUsMjAxODA2MzAyMTE1fE9BSy1MQVMsTEFTLURFTnxXTjU3NjAsV041MDg3fE98MTk0MDB8MTk0MDB8MTk0MDB8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "3",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "O",
+              "fareBasisCode": "OLACPNRO/OLACPNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 19400,
+                "discountedTotalFareCents": 19400,
+                "accrualPoints": 955
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 310,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "SAN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "1696"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "1696"
+              },
+              "departureDateTime": "2018-06-30T15:55",
+              "arrivalDateTime": "2018-06-30T17:20",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "SAN",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4365"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4365"
+              },
+              "departureDateTime": "2018-06-30T18:50",
+              "arrivalDateTime": "2018-06-30T22:05",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxNTU1LDIwMTgwNjMwMjIwNXxPQUstU0FOLFNBTi1ERU58V04xNjk2LFdONDM2NXxLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczSA==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE1NTUsMjAxODA2MzAyMjA1fE9BSy1TQU4sU0FOLURFTnxXTjE2OTYsV040MzY1fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNI",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "UkxBN1BOUk8vUkxBN1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE1NTUsMjAxODA2MzAyMjA1fE9BSy1TQU4sU0FOLURFTnxXTjE2OTYsV040MzY1fFJ8MjI0MDB8MjI0MDB8MjI0MDB8QURUfDF8fHw3M1csNzNI",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "2",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "R",
+              "fareBasisCode": "RLA7PNRO/RLA7PNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 22400,
+                "discountedTotalFareCents": 22400,
+                "accrualPoints": 1122
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 275,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "LAS",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3956"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3956"
+              },
+              "departureDateTime": "2018-06-30T17:40",
+              "arrivalDateTime": "2018-06-30T19:05",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "LAS",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4023"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4023"
+              },
+              "departureDateTime": "2018-06-30T20:30",
+              "arrivalDateTime": "2018-06-30T23:15",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxNzQwLDIwMTgwNjMwMjMxNXxPQUstTEFTLExBUy1ERU58V04zOTU2LFdONDAyM3xLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE3NDAsMjAxODA2MzAyMzE1fE9BSy1MQVMsTEFTLURFTnxXTjM5NTYsV040MDIzfFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "U0xBVVBOUk8vU0xBVVBOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE3NDAsMjAxODA2MzAyMzE1fE9BSy1MQVMsTEFTLURFTnxXTjM5NTYsV040MDIzfFN8MTQ0MDB8MTQ0MDB8MTQ0MDB8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "2",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "S",
+              "fareBasisCode": "SLAUPNRO/SLAUPNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 14400,
+                "discountedTotalFareCents": 14400,
+                "accrualPoints": 676
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 280,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "PHX",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "2646"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "2646"
+              },
+              "departureDateTime": "2018-06-30T18:05",
+              "arrivalDateTime": "2018-06-30T20:00",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            },
+            {
+              "originationAirportCode": "PHX",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3469"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "3469"
+              },
+              "departureDateTime": "2018-06-30T21:05",
+              "arrivalDateTime": "2018-06-30T23:45",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUC9LWkJQfEFtZXJpY2EvTG9zX0FuZ2VsZXN8MjAxODA2MzAxODA1LDIwMTgwNjMwMjM0NXxPQUstUEhYLFBIWC1ERU58V04yNjQ2LFdOMzQ2OXxLfDQyMDY3fDQyMDY3fDQyMDY3fEFEVHwxfHx8NzNXLDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP/KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 42067,
+                "discountedTotalFareCents": 42067,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUwvWUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE4MDUsMjAxODA2MzAyMzQ1fE9BSy1QSFgsUEhYLURFTnxXTjI2NDYsV04zNDY5fFl8Mzk4Njh8Mzk4Njh8Mzk4Njh8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL/YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39868,
+                "discountedTotalFareCents": 39868,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "VExBVlZOUk8vVExBVlZOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE4MDUsMjAxODA2MzAyMzQ1fE9BSy1QSFgsUEhYLURFTnxXTjI2NDYsV04zNDY5fFR8MTE0MDB8MTE0MDB8MTE0MDB8QURUfDF8fHw3M1csNzNX",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "6",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "T",
+              "fareBasisCode": "TLAVVNRO/TLAVVNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 11400,
+                "discountedTotalFareCents": 11400,
+                "accrualPoints": 508
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 140,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5384"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "5384"
+              },
+              "departureDateTime": "2018-06-30T18:45",
+              "arrivalDateTime": "2018-06-30T22:05",
+              "numberOfStops": 0,
+              "stopAirportCodes": [],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTg0NSwyMDE4MDYzMDIyMDV8T0FLLURFTnxXTjUzODR8S3w0MTE5N3w0MTE5N3w0MTE5N3xBRFR8MXx8fDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41197,
+                "discountedTotalFareCents": 41197,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE4NDUsMjAxODA2MzAyMjA1fE9BSy1ERU58V041Mzg0fFl8Mzg5OTh8Mzg5OTh8Mzg5OTh8QURUfDF8fHw3M1c=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 38998,
+                "discountedTotalFareCents": 38998,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "TUxOVVBOUnxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTg0NSwyMDE4MDYzMDIyMDV8T0FLLURFTnxXTjUzODR8TXwxMjU5OHwxMjU5OHwxMjU5OHxBRFR8MXx8fDczVw==",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "4",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "M",
+              "fareBasisCode": "MLNUPNR",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 12598,
+                "discountedTotalFareCents": 12598,
+                "accrualPoints": 624
+              }
+            }
+          ]
+        },
+        {
+          "durationMinutes": 250,
+          "segments": [
+            {
+              "originationAirportCode": "OAK",
+              "destinationAirportCode": "DEN",
+              "marketingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4837"
+              },
+              "operatingCarrierInfo": {
+                "carrierCode": "WN",
+                "flightNumber": "4837"
+              },
+              "departureDateTime": "2018-06-30T18:45",
+              "arrivalDateTime": "2018-06-30T23:55",
+              "numberOfStops": 1,
+              "stopAirportCodes": ["LAX"],
+              "wifiAvailable": true
+            }
+          ],
+          "fareProducts": [
+            {
+              "productId": "S1pCUHxBbWVyaWNhL0xvc19BbmdlbGVzfDIwMTgwNjMwMTg0NSwyMDE4MDYzMDIzNTV8T0FLLURFTnxXTjQ4Mzd8S3w0MTYxN3w0MTYxN3w0MTYxN3xBRFR8MXx8fDczVw==",
+              "fareType": "Business Select",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "K",
+              "fareBasisCode": "KZBP",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 41617,
+                "discountedTotalFareCents": 41617,
+                "accrualPoints": 4440
+              }
+            },
+            {
+              "productId": "WUx8QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE4NDUsMjAxODA2MzAyMzU1fE9BSy1ERU58V040ODM3fFl8Mzk0MTh8Mzk0MTh8Mzk0MTh8QURUfDF8fHw3M1c=",
+              "fareType": "Anytime",
+              "seatsAvailable": "9",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "Y",
+              "fareBasisCode": "YL",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 39418,
+                "discountedTotalFareCents": 39418,
+                "accrualPoints": 3495
+              }
+            },
+            {
+              "productId": "TUxBQ1BOUk98QW1lcmljYS9Mb3NfQW5nZWxlc3wyMDE4MDYzMDE4NDUsMjAxODA2MzAyMzU1fE9BSy1ERU58V040ODM3fE18MTU5NTB8MTU5NTB8MTU5NTB8QURUfDF8fHw3M1c=",
+              "fareType": "Wanna Get Away",
+              "seatsAvailable": "3",
+              "unavailabilityReason": "NONE",
+              "bookingCode": "M",
+              "fareBasisCode": "MLACPNRO",
+              "paxPricingType": "ADT",
+              "currencyPrice": {
+                "totalFareCents": 15950,
+                "discountedTotalFareCents": 15950,
+                "accrualPoints": 787
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discountApplied": false,
+  "promoCodeApplied": false,
+  "promoCode": "",
+  "warnings": []
+}

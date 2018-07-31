@@ -1,0 +1,47 @@
+{
+  "name": "sudoeste",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.4.0",
+    "apollo-link": "^1.2.2",
+    "axios": "^0.18.0",
+    "moment": "^2.22.0",
+    "moment-duration-format": "^2.2.2",
+    "moment-range": "^4.0.1",
+    "netlify-lambda": "^0.3.1",
+    "ramda": "^0.25.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired start",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build": "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired build",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "test": "NODE_PATH=src:src/components:src/containers:src/helpers react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged"
+  },
+  "proxy": {
+    "/.netlify/functions": {
+      "target": "http://localhost:9000",
+      "pathRewrite": {
+        "^/\\.netlify/functions": ""
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1",
+    "react-app-rewire-less": "^2.1.1",
+    "react-app-rewired": "^1.5.0",
+    "react-testing-library": "^2.0.0"
+  }
+}
