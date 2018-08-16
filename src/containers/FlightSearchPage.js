@@ -32,8 +32,6 @@ const defaultStartDate = moment().add(14, "days");
 const defaultEndDate = moment().add(15, "days");
 
 const defaultSearchOptions = {
-  departureAirports: ["OAK", "SFO"],
-  arrivalAirports: ["DEN"],
   departureDates: [defaultStartDate, defaultEndDate],
   currencyType: "Dollars"
 };
@@ -96,12 +94,9 @@ class FlightSearchPage extends Component {
         <Row
           type="flex"
           justify="center"
-          style={{ background: "hsl(0, 0%, 5%)", padding: "50px" }}
+          style={{ background: "hsl(0, 0%, 5%)", paddingTop: "20px" }}
         >
-          <Col span={2}>
-            <img src={logo} alt="logo" style={{ maxWidth: 36 }} />
-          </Col>
-          <Col span={22}>
+          <Col span={24}>
             <FlightSearchForm
               getFlights={this.getFlights.bind(this)}
               loading={this.state.loading}
@@ -110,22 +105,14 @@ class FlightSearchPage extends Component {
           </Col>
         </Row>
         {flightProducts && (
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "300px auto",
-              justifyItems: "stretch",
-              gridColumnGap: 25,
-              margin: 20
-            }}
-          >
-            <div>
+          <Row>
+            <Col xs={24} sm={10} md={8} style={{ padding: "10px 20px" }}>
               <FlightFilters
                 filters={this.state.filters}
                 handleFilterChange={this.handleFilterChange.bind(this)}
               />
-            </div>
-            <div>
+            </Col>
+            <Col xs={24} sm={14} md={16} style={{ padding: "10px 20px" }}>
               <div style={{ display: "grid", justifyItems: "end" }}>
                 <div>
                   <span>Sorted by: </span>
@@ -147,8 +134,8 @@ class FlightSearchPage extends Component {
               ).map((flightProduct, i) => (
                 <FlightResult key={i} flightProduct={flightProduct} />
               ))}
-            </div>
-          </div>
+            </Col>
+          </Row>
         )}
       </Content>
     );

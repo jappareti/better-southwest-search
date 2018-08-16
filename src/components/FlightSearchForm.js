@@ -46,8 +46,7 @@ class FlightSearchForm extends Component {
     const { getFieldDecorator } = this.props.form;
     const formItemLayout = {
       labelCol: {
-        xs: { span: 24 },
-        sm: { span: 8 }
+        xs: { span: 24 }
       },
       wrapperCol: {
         xs: { span: 24 },
@@ -87,69 +86,77 @@ class FlightSearchForm extends Component {
     const currencyConfig = {
       initialValue: this.props.searchOptions.currencyType
     };
+    const formItemStyle = {
+      marginBottom: "10px"
+    };
     return (
-      <Form layout="inline" onSubmit={this.handleSubmit}>
-        <FormItem {...formItemLayout}>
+      <Form
+        layout="vertical"
+        onSubmit={this.handleSubmit}
+        style={{
+          padding: "20px",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fill, minmax(210px, 1fr))",
+          gridColumnGap: "10px"
+        }}
+      >
+        <FormItem {...formItemLayout} style={formItemStyle}>
           {getFieldDecorator("departureAirports", departureConfig)(
             <Select
               mode="multiple"
               size="large"
               placeholder="Departure Airport(s)"
               optionLabelProp="value"
-              style={{ width: 200 }}
             >
               {airportOptions}
             </Select>
           )}
         </FormItem>
-        <FormItem {...formItemLayout}>
+        <FormItem {...formItemLayout} style={formItemStyle}>
           {getFieldDecorator("arrivalAirports", arrivalConfig)(
             <Select
               mode="multiple"
               size="large"
               placeholder="Arrival Airport(s)"
               optionLabelProp="value"
-              style={{ width: "200px" }}
             >
               {airportOptions}
             </Select>
           )}
         </FormItem>
-
-        <FormItem {...formItemLayout}>
+        <FormItem {...formItemLayout} style={formItemStyle}>
           {getFieldDecorator("departureDates", rangeConfig)(
-            <RangePicker
-              size="large"
-              disabledDate={disabledDate}
-              style={{ width: "300px" }}
-            />
+            <RangePicker size="large" disabledDate={disabledDate} />
           )}
-          <div style={{ marginTop: -9, textAlign: "center" }}>
-            Departure date range
-          </div>
         </FormItem>
-
-        <FormItem {...formItemLayout} />
-        {getFieldDecorator("currencyType", currencyConfig)(
-          <RadioGroup size="large">
-            <RadioButton value="Dollars">$</RadioButton>
-            <RadioButton value="Points">Pts</RadioButton>
-          </RadioGroup>
-        )}
-        <FormItem
-          wrapperCol={{
-            xs: { span: 24, offset: 0 },
-            sm: { span: 16, offset: 8 }
-          }}
-        >
+        <FormItem {...formItemLayout} style={formItemStyle}>
+          {getFieldDecorator("currencyType", currencyConfig)(
+            <RadioGroup size="large" style={{ width: "100%" }}>
+              <RadioButton
+                value="Dollars"
+                style={{ width: "50%", textAlign: "center" }}
+              >
+                $
+              </RadioButton>
+              <RadioButton
+                value="Points"
+                style={{ width: "50%", textAlign: "center" }}
+              >
+                Pts
+              </RadioButton>
+            </RadioGroup>
+          )}
+        </FormItem>
+        <FormItem {...formItemLayout} style={formItemStyle}>
           <Button
             type="primary"
             size="large"
             htmlType="submit"
             loading={this.props.loading}
-            icon="search"
-            style={{ paddingRight: 15, paddingLeft: 15 }}
-          />
+            style={{ paddingRight: 15, paddingLeft: 15, width: "100%" }}
+          >
+            Find flights
+          </Button>
         </FormItem>
       </Form>
     );
