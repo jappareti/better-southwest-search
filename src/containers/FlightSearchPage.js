@@ -58,7 +58,6 @@ class FlightSearchPage extends Component {
       flightSearches.map(flightSearch => api.getFlights(flightSearch))
     )
       .then(response => {
-        console.log(response);
         const flightProductsFlattened = R.flatten(
           response.map(result => result.data.trips[0].airProducts)
         );

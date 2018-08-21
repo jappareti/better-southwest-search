@@ -6,13 +6,10 @@ const RadioGroup = Radio.Group;
 
 class FlightFilters extends Component {
   onChange = e => {
-    // console.log(e);
     this.props.handleFilterChange(e.target.name, e.target.value);
   };
 
   onAfterSliderChange = sliderName => value => {
-    // console.log(sliderName);
-    // console.log(value);
     this.props.handleFilterChange(sliderName, value);
   };
 
