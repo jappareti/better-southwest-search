@@ -80,7 +80,6 @@ const addAirports = R.curry((airports, direction, searches) => {
  *    destinationAirport: 'DEN'}]
  */
 function createFlightSearches(queryParams) {
-  console.log("Creating flight searches from params", queryParams);
   const departureDateRange = moment().range(
     queryParams.departureDates[0],
     queryParams.departureDates[1]

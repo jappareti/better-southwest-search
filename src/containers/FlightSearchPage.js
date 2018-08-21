@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { notification, Layout, Row, Col, Select } from "antd";
+import { notification, Layout, Row, Col, Select, Card } from "antd";
+import ContentLoader from "react-content-loader";
 import FlightSearchForm from "FlightSearchForm";
 import FlightFilters from "FlightFilters";
 import FlightResult from "FlightResult";
@@ -36,10 +37,33 @@ const defaultSearchOptions = {
   currencyType: "Dollars"
 };
 
+const defaultLoaderProps = {
+  primaryColor: "#4d4d4d",
+  secondaryColor: "#999999",
+  speed: 1
+};
+
+const FlightsLoader = props =>
+  Array(10)
+    .fill()
+    .map(() => (
+      <Card style={{ marginTop: 16 }}>
+        <ContentLoader
+          height={43}
+          width={800}
+          {...defaultLoaderProps}
+          {...props}
+        >
+          <rect x="0" y="0" rx="3" ry="3" width="800" height="13" />
+          <rect x="0" y="30" rx="3" ry="3" width="800" height="13" />
+        </ContentLoader>
+      </Card>
+    ));
+
 class FlightSearchPage extends Component {
   state = {
     // flightProducts: sampleFlightProducts,
-    flightProducts: null,
+    flightProducts: [],
     sortByOption: "fareValue",
     loading: false,
     loadingPriceAlert: false,
@@ -87,7 +111,14 @@ class FlightSearchPage extends Component {
   }
 
   render() {
-    const { sortByOption, flightProducts, filters } = this.state;
+    const { sortByOption, flightProducts, filters, loading } = this.state;
+    const flights = sortFlights(
+      sortByOption,
+      filterFlights(filters)(flightProducts)
+    ).map((flightProduct, i) => (
+      <FlightResult key={i} flightProduct={flightProduct} loading={loading} />
+    ));
+
     return (
       <Content>
         <Row
@@ -103,12 +134,13 @@ class FlightSearchPage extends Component {
             />
           </Col>
         </Row>
-        {flightProducts && (
+        {(flightProducts.length !== 0 || this.state.loading) && (
           <Row>
             <Col xs={24} sm={10} md={8} style={{ padding: "10px 20px" }}>
               <FlightFilters
                 filters={this.state.filters}
                 handleFilterChange={this.handleFilterChange.bind(this)}
+                loading={loading}
               />
             </Col>
             <Col xs={24} sm={14} md={16} style={{ padding: "10px 20px" }}>
@@ -127,12 +159,7 @@ class FlightSearchPage extends Component {
                   </Select>
                 </div>
               </div>
-              {sortFlights(
-                sortByOption,
-                filterFlights(filters)(flightProducts)
-              ).map((flightProduct, i) => (
-                <FlightResult key={i} flightProduct={flightProduct} />
-              ))}
+              {loading ? <FlightsLoader /> : flights}
             </Col>
           </Row>
         )}
