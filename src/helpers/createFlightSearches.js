@@ -46,7 +46,7 @@ function addDates(dates) {
 const addCurrency = R.curry((currency, searches) => {
   return R.flatten(
     searches.map(search => {
-      return { ...search, "currency-type": currency };
+      return { ...search, currency };
     })
   );
 });
@@ -89,7 +89,7 @@ function createFlightSearches(queryParams) {
   );
   const departureAirports = queryParams["departureAirports"];
   const arrivalAirports = queryParams["arrivalAirports"];
-  const currency = queryParams["currencyType"];
+  const currency = queryParams["currency"];
   return R.pipe(
     addDates,
     addCurrency(currency),

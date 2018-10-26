@@ -17,8 +17,8 @@ const formatFareValue = (currencyType, fareValue) => {
   if (fareValue === Infinity) {
     return "Sold Out";
   }
-  if (currencyType === "Dollars") {
-    return (fareValue / 100).toLocaleString("en-US", {
+  if (currencyType === "USD") {
+    return fareValue.toLocaleString("en-US", {
       style: "currency",
       currency: "USD"
     });

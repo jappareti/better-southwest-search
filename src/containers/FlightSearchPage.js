@@ -11,15 +11,14 @@ import * as R from "ramda";
 import moment from "moment";
 import * as api from "api";
 
-import logo from "../logo.png";
-// import sampleAPIresponse from "../data/2018-06-30-OAK-DEN-2018-01-12-14-49.json";
+// import sampleAPIresponse from "../data/2018-11-23--OAK-DEN.json";
 
 const { Content } = Layout;
 const Option = Select.Option;
 
 // const sampleFlightProducts = R.map(
 //   transformFlightData,
-//   sampleAPIresponse.trips[0].airProducts
+//   sampleAPIresponse.flightShoppingPage.outboundPage.cards
 // );
 
 const openNotificationWithIcon = (type, msg, description) => {
@@ -34,7 +33,7 @@ const defaultEndDate = moment().add(15, "days");
 
 const defaultSearchOptions = {
   departureDates: [defaultStartDate, defaultEndDate],
-  currencyType: "Dollars"
+  currency: "USD"
 };
 
 const defaultLoaderProps = {
@@ -46,8 +45,8 @@ const defaultLoaderProps = {
 const FlightsLoader = props =>
   Array(10)
     .fill()
-    .map(() => (
-      <Card style={{ marginTop: 16 }}>
+    .map((_, i) => (
+      <Card key={i} style={{ marginTop: 16 }}>
         <ContentLoader
           height={43}
           width={800}
@@ -83,7 +82,9 @@ class FlightSearchPage extends Component {
     )
       .then(response => {
         const flightProductsFlattened = R.flatten(
-          response.map(result => result.data.trips[0].airProducts)
+          response.map(
+            result => result.data.flightShoppingPage.outboundPage.cards
+          )
         );
         const flightProducts = R.map(
           transformFlightData,
@@ -111,12 +112,23 @@ class FlightSearchPage extends Component {
   }
 
   render() {
-    const { sortByOption, flightProducts, filters, loading } = this.state;
+    const {
+      sortByOption,
+      flightProducts,
+      filters,
+      loading,
+      searchOptions
+    } = this.state;
     const flights = sortFlights(
       sortByOption,
       filterFlights(filters)(flightProducts)
     ).map((flightProduct, i) => (
-      <FlightResult key={i} flightProduct={flightProduct} loading={loading} />
+      <FlightResult
+        key={i}
+        currencyType={searchOptions.currency}
+        flightProduct={flightProduct}
+        loading={loading}
+      />
     ));
 
     return (

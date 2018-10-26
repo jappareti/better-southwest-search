@@ -3,23 +3,22 @@ import { Card, Row, Col, Tooltip } from "antd";
 import {
   formatDuration,
   formatDepartureDate,
-  formatFareValue,
-  getLayoverDuration
+  formatFareValue
 } from "../helpers/formatters";
 import moment from "moment";
 
-const FlightResult = ({ flightProduct }) => {
+const FlightResult = ({ flightProduct, currencyType }) => {
   const {
     departureDateTime,
     departureAirportCode,
     arrivalDateTime,
     arrivalAirportCode,
     connectionAirportCode,
-    segments,
     durationMinutes,
-    currencyType,
     fareValue,
-    seatsAvailable
+    flightNumbers,
+    stopDescriptionOnSelect,
+    numberOfStops
   } = flightProduct;
   const departureTime = moment(departureDateTime).format("h:mm A");
   const arrivalTime = moment(arrivalDateTime).format("h:mm A");
@@ -46,14 +45,8 @@ const FlightResult = ({ flightProduct }) => {
             }}
           >
             <span style={axisStyle} />
-            {connectionAirportCode !== undefined && (
-              <Tooltip
-                title={`${
-                  segments.length > 1
-                    ? getLayoverDuration(segments)
-                    : "No plange change"
-                } layover in ${connectionAirportCode}`}
-              >
+            {numberOfStops > 0 && (
+              <Tooltip title={stopDescriptionOnSelect}>
                 <span
                   style={{ border: "1px solid #262626", position: "absolute" }}
                 >
@@ -70,7 +63,9 @@ const FlightResult = ({ flightProduct }) => {
               </Tooltip>
             )}
           </span>
-          <span>{connectionAirportCode || "nonstop"}</span>
+          <span>
+            {connectionAirportCode || (numberOfStops === 0 ? "nonstop" : "")}
+          </span>
         </Col>
         <Col span={3} style={{ display: "inline-block" }}>
           <div>{arrivalTime}</div>
@@ -85,7 +80,7 @@ const FlightResult = ({ flightProduct }) => {
             {formatFareValue(currencyType, fareValue)}
           </div>
           <div style={{ fontSize: ".8rem", textAlign: "right" }}>
-            {seatsAvailable} seats avail.
+            #{flightNumbers}
           </div>
         </Col>
       </Row>

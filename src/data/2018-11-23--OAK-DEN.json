@@ -1,0 +1,1610 @@
+{
+  "flightShoppingPage": {
+    "messages": [],
+    "showSgaMessage": false,
+    "promoCodeNotice": null,
+    "pointsDisclaimer": null,
+    "outboundPage": {
+      "header": { "airportInfo": "OAK - DEN", "selectedDate": "2018-11-23" },
+      "cards": [
+        {
+          "departureTime": "06:00",
+          "arrivalTime": "09:30",
+          "duration": "2h 30m",
+          "stopDescription": "Nonstop",
+          "stopDescriptionOnSelect": "Nonstop",
+          "flightNumbers": "2032",
+          "startingFromPrice": {
+            "amount": "307",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "307",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,635 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFFMTjdQTlIsUSxPQUssREVOLDIwMTgtMTEtMjNUMDY6MDAtMDg6MDAsMjAxOC0xMS0yM1QwOTozMC0wNzowMCxXTixXTiwyMDMyLDczVyIsInF1b3RlZFByaWNlIjoiMzA2Ljk4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "398",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLERFTiwyMDE4LTExLTIzVDA2OjAwLTA4OjAwLDIwMTgtMTEtMjNUMDk6MzAtMDc6MDAsV04sV04sMjAzMiw3M1ciLCJxdW90ZWRQcmljZSI6IjM5Ny45OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkFOWSJ9",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "420",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssREVOLDIwMTgtMTEtMjNUMDY6MDAtMDg6MDAsMjAxOC0xMS0yM1QwOTozMC0wNzowMCxXTixXTiwyMDMyLDczVyIsInF1b3RlZFByaWNlIjoiNDE5Ljk4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:18:2018-11-23",
+            "durationMinutes": 150,
+            "numberOfStops": 0,
+            "startingFromAmount": 307,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "0600"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "06:40",
+          "arrivalTime": "11:50",
+          "duration": "4h 10m",
+          "stopDescription": "1 Stop, SLC",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SLC",
+          "flightNumbers": "6348/2128",
+          "startingFromPrice": {
+            "amount": "125",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "125",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFpMQVZWTlJPLFosT0FLLFNMQywyMDE4LTExLTIzVDA2OjQwLTA4OjAwLDIwMTgtMTEtMjNUMDk6MjAtMDc6MDAsV04sV04sNjM0OCw3Mzh8WkxBVlZOUk8sWixTTEMsREVOLDIwMTgtMTEtMjNUMTA6MzAtMDc6MDAsMjAxOC0xMS0yM1QxMTo1MC0wNzowMCxXTixXTiwyMTI4LDczVyIsInF1b3RlZFByaWNlIjoiMTI0LjgwIiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNMQywyMDE4LTExLTIzVDA2OjQwLTA4OjAwLDIwMTgtMTEtMjNUMDk6MjAtMDc6MDAsV04sV04sNjM0OCw3Mzh8WUwsWSxTTEMsREVOLDIwMTgtMTEtMjNUMTA6MzAtMDc6MDAsMjAxOC0xMS0yM1QxMTo1MC0wNzowMCxXTixXTiwyMTI4LDczVyIsInF1b3RlZFByaWNlIjoiNDA2LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQU5ZIn0=",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU0xDLDIwMTgtMTEtMjNUMDY6NDAtMDg6MDAsMjAxOC0xMS0yM1QwOToyMC0wNzowMCxXTixXTiw2MzQ4LDczOHxLWkJQLEssU0xDLERFTiwyMDE4LTExLTIzVDEwOjMwLTA3OjAwLDIwMTgtMTEtMjNUMTE6NTAtMDc6MDAsV04sV04sMjEyOCw3M1ciLCJxdW90ZWRQcmljZSI6IjQyOC41OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkJVUyJ9",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:0:2018-11-23",
+            "durationMinutes": 250,
+            "numberOfStops": 1,
+            "startingFromAmount": 125,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "0640"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "08:35",
+          "arrivalTime": "14:50",
+          "duration": "5h 15m",
+          "stopDescription": "1 Stop, SNA",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SNA",
+          "flightNumbers": "1551/3284",
+          "startingFromPrice": {
+            "amount": "190",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "190",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 933 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFBMQUNQTlJPLFAsT0FLLFNOQSwyMDE4LTExLTIzVDA4OjM1LTA4OjAwLDIwMTgtMTEtMjNUMTA6MDAtMDg6MDAsV04sV04sMTU1MSw3M1d8UExBQ1BOUk8sUCxTTkEsREVOLDIwMTgtMTEtMjNUMTE6NDAtMDg6MDAsMjAxOC0xMS0yM1QxNDo1MC0wNzowMCxXTixXTiwzMjg0LDczVyIsInF1b3RlZFByaWNlIjoiMTg5LjgwIiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNOQSwyMDE4LTExLTIzVDA4OjM1LTA4OjAwLDIwMTgtMTEtMjNUMTA6MDAtMDg6MDAsV04sV04sMTU1MSw3M1d8WUwsWSxTTkEsREVOLDIwMTgtMTEtMjNUMTE6NDAtMDg6MDAsMjAxOC0xMS0yM1QxNDo1MC0wNzowMCxXTixXTiwzMjg0LDczVyIsInF1b3RlZFByaWNlIjoiNDA2LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQU5ZIn0=",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU05BLDIwMTgtMTEtMjNUMDg6MzUtMDg6MDAsMjAxOC0xMS0yM1QxMDowMC0wODowMCxXTixXTiwxNTUxLDczV3xLWkJQLEssU05BLERFTiwyMDE4LTExLTIzVDExOjQwLTA4OjAwLDIwMTgtMTEtMjNUMTQ6NTAtMDc6MDAsV04sV04sMzI4NCw3M1ciLCJxdW90ZWRQcmljZSI6IjQyOC41OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkJVUyJ9",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:7:2018-11-23",
+            "durationMinutes": 315,
+            "numberOfStops": 1,
+            "startingFromAmount": 190,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "0835"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "09:35",
+          "arrivalTime": "14:50",
+          "duration": "4h 15m",
+          "stopDescription": "1 Stop, SNA",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SNA",
+          "flightNumbers": "2944/3284",
+          "startingFromPrice": {
+            "amount": "190",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "190",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 933 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFBMQUNQTlJPLFAsT0FLLFNOQSwyMDE4LTExLTIzVDA5OjM1LTA4OjAwLDIwMTgtMTEtMjNUMTE6MDAtMDg6MDAsV04sV04sMjk0NCw3M1d8UExBQ1BOUk8sUCxTTkEsREVOLDIwMTgtMTEtMjNUMTE6NDAtMDg6MDAsMjAxOC0xMS0yM1QxNDo1MC0wNzowMCxXTixXTiwzMjg0LDczVyIsInF1b3RlZFByaWNlIjoiMTg5LjgwIiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNOQSwyMDE4LTExLTIzVDA5OjM1LTA4OjAwLDIwMTgtMTEtMjNUMTE6MDAtMDg6MDAsV04sV04sMjk0NCw3M1d8WUwsWSxTTkEsREVOLDIwMTgtMTEtMjNUMTE6NDAtMDg6MDAsMjAxOC0xMS0yM1QxNDo1MC0wNzowMCxXTixXTiwzMjg0LDczVyIsInF1b3RlZFByaWNlIjoiNDA2LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQU5ZIn0=",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU05BLDIwMTgtMTEtMjNUMDk6MzUtMDg6MDAsMjAxOC0xMS0yM1QxMTowMC0wODowMCxXTixXTiwyOTQ0LDczV3xLWkJQLEssU05BLERFTiwyMDE4LTExLTIzVDExOjQwLTA4OjAwLDIwMTgtMTEtMjNUMTQ6NTAtMDc6MDAsV04sV04sMzI4NCw3M1ciLCJxdW90ZWRQcmljZSI6IjQyOC41OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkJVUyJ9",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:6:2018-11-23",
+            "durationMinutes": 255,
+            "numberOfStops": 1,
+            "startingFromAmount": 190,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "0935"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "09:55",
+          "arrivalTime": "15:05",
+          "duration": "4h 10m",
+          "stopDescription": "1 Stop, LAS",
+          "stopDescriptionOnSelect": "1 Stop, Change planes LAS",
+          "flightNumbers": "565/1016",
+          "startingFromPrice": {
+            "amount": "190",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "1 left",
+              "price": {
+                "amount": "190",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 933 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFBMQUNQTlJPLFAsT0FLLExBUywyMDE4LTExLTIzVDA5OjU1LTA4OjAwLDIwMTgtMTEtMjNUMTE6MjAtMDg6MDAsV04sV04sNTY1LDczSHxQTEFDUE5STyxQLExBUyxERU4sMjAxOC0xMS0yM1QxMjoxNS0wODowMCwyMDE4LTExLTIzVDE1OjA1LTA3OjAwLFdOLFdOLDEwMTYsNzNIIiwicXVvdGVkUHJpY2UiOiIxODkuODAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLExBUywyMDE4LTExLTIzVDA5OjU1LTA4OjAwLDIwMTgtMTEtMjNUMTE6MjAtMDg6MDAsV04sV04sNTY1LDczSHxZTCxZLExBUyxERU4sMjAxOC0xMS0yM1QxMjoxNS0wODowMCwyMDE4LTExLTIzVDE1OjA1LTA3OjAwLFdOLFdOLDEwMTYsNzNIIiwicXVvdGVkUHJpY2UiOiI0MDYuNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssTEFTLDIwMTgtMTEtMjNUMDk6NTUtMDg6MDAsMjAxOC0xMS0yM1QxMToyMC0wODowMCxXTixXTiw1NjUsNzNIfEtaQlAsSyxMQVMsREVOLDIwMTgtMTEtMjNUMTI6MTUtMDg6MDAsMjAxOC0xMS0yM1QxNTowNS0wNzowMCxXTixXTiwxMDE2LDczSCIsInF1b3RlZFByaWNlIjoiNDI4LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:5:2018-11-23",
+            "durationMinutes": 250,
+            "numberOfStops": 1,
+            "startingFromAmount": 190,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "0955"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "10:40",
+          "arrivalTime": "16:15",
+          "duration": "4h 35m",
+          "stopDescription": "1 Stop, BOI",
+          "stopDescriptionOnSelect": "1 Stop, Change planes BOI",
+          "flightNumbers": "104/1477",
+          "startingFromPrice": {
+            "amount": "261",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "4 left",
+              "price": {
+                "amount": "261",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,351 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFNMQTdQTlJPLFMsT0FLLEJPSSwyMDE4LTExLTIzVDEwOjQwLTA4OjAwLDIwMTgtMTEtMjNUMTM6MDUtMDc6MDAsV04sV04sMTA0LDczV3xTTEE3UE5STyxTLEJPSSxERU4sMjAxOC0xMS0yM1QxNDozMC0wNzowMCwyMDE4LTExLTIzVDE2OjE1LTA3OjAwLFdOLFdOLDE0NzcsNzNXIiwicXVvdGVkUHJpY2UiOiIyNjAuMzAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "403",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLEJPSSwyMDE4LTExLTIzVDEwOjQwLTA4OjAwLDIwMTgtMTEtMjNUMTM6MDUtMDc6MDAsV04sV04sMTA0LDczV3xZTCxZLEJPSSxERU4sMjAxOC0xMS0yM1QxNDozMC0wNzowMCwyMDE4LTExLTIzVDE2OjE1LTA3OjAwLFdOLFdOLDE0NzcsNzNXIiwicXVvdGVkUHJpY2UiOiI0MDIuMDgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "425",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssQk9JLDIwMTgtMTEtMjNUMTA6NDAtMDg6MDAsMjAxOC0xMS0yM1QxMzowNS0wNzowMCxXTixXTiwxMDQsNzNXfEtaQlAsSyxCT0ksREVOLDIwMTgtMTEtMjNUMTQ6MzAtMDc6MDAsMjAxOC0xMS0yM1QxNjoxNS0wNzowMCxXTixXTiwxNDc3LDczVyIsInF1b3RlZFByaWNlIjoiNDI0LjA4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:14:2018-11-23",
+            "durationMinutes": 275,
+            "numberOfStops": 1,
+            "startingFromAmount": 261,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1040"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "11:00",
+          "arrivalTime": "16:40",
+          "duration": "4h 40m",
+          "stopDescription": "1 Stop, SLC",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SLC",
+          "flightNumbers": "1963/1579",
+          "startingFromPrice": {
+            "amount": "155",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "2 left",
+              "price": {
+                "amount": "155",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 737 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfEdMQVVQTlJPLEcsT0FLLFNMQywyMDE4LTExLTIzVDExOjAwLTA4OjAwLDIwMTgtMTEtMjNUMTM6NDAtMDc6MDAsV04sV04sMTk2Myw3M1d8R0xBVVBOUk8sRyxTTEMsREVOLDIwMTgtMTEtMjNUMTU6MjAtMDc6MDAsMjAxOC0xMS0yM1QxNjo0MC0wNzowMCxXTixXTiwxNTc5LDczVyIsInF1b3RlZFByaWNlIjoiMTU0LjgwIiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNMQywyMDE4LTExLTIzVDExOjAwLTA4OjAwLDIwMTgtMTEtMjNUMTM6NDAtMDc6MDAsV04sV04sMTk2Myw3M1d8WUwsWSxTTEMsREVOLDIwMTgtMTEtMjNUMTU6MjAtMDc6MDAsMjAxOC0xMS0yM1QxNjo0MC0wNzowMCxXTixXTiwxNTc5LDczVyIsInF1b3RlZFByaWNlIjoiNDA2LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQU5ZIn0=",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU0xDLDIwMTgtMTEtMjNUMTE6MDAtMDg6MDAsMjAxOC0xMS0yM1QxMzo0MC0wNzowMCxXTixXTiwxOTYzLDczV3xLWkJQLEssU0xDLERFTiwyMDE4LTExLTIzVDE1OjIwLTA3OjAwLDIwMTgtMTEtMjNUMTY6NDAtMDc6MDAsV04sV04sMTU3OSw3M1ciLCJxdW90ZWRQcmljZSI6IjQyOC41OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkJVUyJ9",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:2:2018-11-23",
+            "durationMinutes": 280,
+            "numberOfStops": 1,
+            "startingFromAmount": 155,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1100"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "11:25",
+          "arrivalTime": "14:50",
+          "duration": "2h 25m",
+          "stopDescription": "Nonstop",
+          "stopDescriptionOnSelect": "Nonstop",
+          "flightNumbers": "2689",
+          "startingFromPrice": {
+            "amount": "197",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "4 left",
+              "price": {
+                "amount": "197",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,021 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfE1MTkNQTlIsTSxPQUssREVOLDIwMTgtMTEtMjNUMTE6MjUtMDg6MDAsMjAxOC0xMS0yM1QxNDo1MC0wNzowMCxXTixXTiwyNjg5LDczVyIsInF1b3RlZFByaWNlIjoiMTk2Ljk4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "398",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLERFTiwyMDE4LTExLTIzVDExOjI1LTA4OjAwLDIwMTgtMTEtMjNUMTQ6NTAtMDc6MDAsV04sV04sMjY4OSw3M1ciLCJxdW90ZWRQcmljZSI6IjM5Ny45OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkFOWSJ9",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "420",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssREVOLDIwMTgtMTEtMjNUMTE6MjUtMDg6MDAsMjAxOC0xMS0yM1QxNDo1MC0wNzowMCxXTixXTiwyNjg5LDczVyIsInF1b3RlZFByaWNlIjoiNDE5Ljk4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:10:2018-11-23",
+            "durationMinutes": 145,
+            "numberOfStops": 0,
+            "startingFromAmount": 197,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1125"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "12:05",
+          "arrivalTime": "18:30",
+          "duration": "5h 25m",
+          "stopDescription": "1 Stop, SNA",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SNA",
+          "flightNumbers": "1070/1488",
+          "startingFromPrice": {
+            "amount": "190",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "190",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 933 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFBMQUNQTlJPLFAsT0FLLFNOQSwyMDE4LTExLTIzVDEyOjA1LTA4OjAwLDIwMTgtMTEtMjNUMTM6MzAtMDg6MDAsV04sV04sMTA3MCw3M1d8UExBQ1BOUk8sUCxTTkEsREVOLDIwMTgtMTEtMjNUMTU6MTUtMDg6MDAsMjAxOC0xMS0yM1QxODozMC0wNzowMCxXTixXTiwxNDg4LDczVyIsInF1b3RlZFByaWNlIjoiMTg5LjgwIiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNOQSwyMDE4LTExLTIzVDEyOjA1LTA4OjAwLDIwMTgtMTEtMjNUMTM6MzAtMDg6MDAsV04sV04sMTA3MCw3M1d8WUwsWSxTTkEsREVOLDIwMTgtMTEtMjNUMTU6MTUtMDg6MDAsMjAxOC0xMS0yM1QxODozMC0wNzowMCxXTixXTiwxNDg4LDczVyIsInF1b3RlZFByaWNlIjoiNDA2LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQU5ZIn0=",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU05BLDIwMTgtMTEtMjNUMTI6MDUtMDg6MDAsMjAxOC0xMS0yM1QxMzozMC0wODowMCxXTixXTiwxMDcwLDczV3xLWkJQLEssU05BLERFTiwyMDE4LTExLTIzVDE1OjE1LTA4OjAwLDIwMTgtMTEtMjNUMTg6MzAtMDc6MDAsV04sV04sMTQ4OCw3M1ciLCJxdW90ZWRQcmljZSI6IjQyOC41OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkJVUyJ9",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:9:2018-11-23",
+            "durationMinutes": 325,
+            "numberOfStops": 1,
+            "startingFromAmount": 190,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1205"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "12:55",
+          "arrivalTime": "18:10",
+          "duration": "4h 15m",
+          "stopDescription": "1 Stop, PHX",
+          "stopDescriptionOnSelect": "1 Stop, Change planes PHX",
+          "flightNumbers": "3218/1952",
+          "startingFromPrice": {
+            "amount": "220",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "220",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,100 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFRMQUNQTlJPLFQsT0FLLFBIWCwyMDE4LTExLTIzVDEyOjU1LTA4OjAwLDIwMTgtMTEtMjNUMTU6NDUtMDc6MDAsV04sV04sMzIxOCw3M1d8VExBQ1BOUk8sVCxQSFgsREVOLDIwMTgtMTEtMjNUMTY6MzAtMDc6MDAsMjAxOC0xMS0yM1QxODoxMC0wNzowMCxXTixXTiwxOTUyLDczVyIsInF1b3RlZFByaWNlIjoiMjE5LjgwIiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFBIWCwyMDE4LTExLTIzVDEyOjU1LTA4OjAwLDIwMTgtMTEtMjNUMTU6NDUtMDc6MDAsV04sV04sMzIxOCw3M1d8WUwsWSxQSFgsREVOLDIwMTgtMTEtMjNUMTY6MzAtMDc6MDAsMjAxOC0xMS0yM1QxODoxMC0wNzowMCxXTixXTiwxOTUyLDczVyIsInF1b3RlZFByaWNlIjoiNDA2LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQU5ZIn0=",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssUEhYLDIwMTgtMTEtMjNUMTI6NTUtMDg6MDAsMjAxOC0xMS0yM1QxNTo0NS0wNzowMCxXTixXTiwzMjE4LDczV3xLWkJQLEssUEhYLERFTiwyMDE4LTExLTIzVDE2OjMwLTA3OjAwLDIwMTgtMTEtMjNUMTg6MTAtMDc6MDAsV04sV04sMTk1Miw3M1ciLCJxdW90ZWRQcmljZSI6IjQyOC41OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkJVUyJ9",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:12:2018-11-23",
+            "durationMinutes": 255,
+            "numberOfStops": 1,
+            "startingFromAmount": 220,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1255"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "14:00",
+          "arrivalTime": "20:20",
+          "duration": "5h 20m",
+          "stopDescription": "1 Stop, SNA",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SNA",
+          "flightNumbers": "572/1955",
+          "startingFromPrice": {
+            "amount": "190",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "3 left",
+              "price": {
+                "amount": "190",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 933 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFBMQUNQTlJPLFAsT0FLLFNOQSwyMDE4LTExLTIzVDE0OjAwLTA4OjAwLDIwMTgtMTEtMjNUMTU6MjAtMDg6MDAsV04sV04sNTcyLDczV3xQTEFDUE5STyxQLFNOQSxERU4sMjAxOC0xMS0yM1QxNzoxMC0wODowMCwyMDE4LTExLTIzVDIwOjIwLTA3OjAwLFdOLFdOLDE5NTUsNzNXIiwicXVvdGVkUHJpY2UiOiIxODkuODAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNOQSwyMDE4LTExLTIzVDE0OjAwLTA4OjAwLDIwMTgtMTEtMjNUMTU6MjAtMDg6MDAsV04sV04sNTcyLDczV3xZTCxZLFNOQSxERU4sMjAxOC0xMS0yM1QxNzoxMC0wODowMCwyMDE4LTExLTIzVDIwOjIwLTA3OjAwLFdOLFdOLDE5NTUsNzNXIiwicXVvdGVkUHJpY2UiOiI0MDYuNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU05BLDIwMTgtMTEtMjNUMTQ6MDAtMDg6MDAsMjAxOC0xMS0yM1QxNToyMC0wODowMCxXTixXTiw1NzIsNzNXfEtaQlAsSyxTTkEsREVOLDIwMTgtMTEtMjNUMTc6MTAtMDg6MDAsMjAxOC0xMS0yM1QyMDoyMC0wNzowMCxXTixXTiwxOTU1LDczVyIsInF1b3RlZFByaWNlIjoiNDI4LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:8:2018-11-23",
+            "durationMinutes": 320,
+            "numberOfStops": 1,
+            "startingFromAmount": 190,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1400"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "14:40",
+          "arrivalTime": "20:05",
+          "duration": "4h 25m",
+          "stopDescription": "1 Stop, PHX",
+          "stopDescriptionOnSelect": "1 Stop, Change planes PHX",
+          "flightNumbers": "679/173",
+          "startingFromPrice": {
+            "amount": "265",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "265",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,351 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFNMQTdQTlJPLFMsT0FLLFBIWCwyMDE4LTExLTIzVDE0OjQwLTA4OjAwLDIwMTgtMTEtMjNUMTc6MzUtMDc6MDAsV04sV04sNjc5LDczV3xTTEE3UE5STyxTLFBIWCxERU4sMjAxOC0xMS0yM1QxODoyMC0wNzowMCwyMDE4LTExLTIzVDIwOjA1LTA3OjAwLFdOLFdOLDE3Myw3M1ciLCJxdW90ZWRQcmljZSI6IjI2NC44MCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IldHQSJ9",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFBIWCwyMDE4LTExLTIzVDE0OjQwLTA4OjAwLDIwMTgtMTEtMjNUMTc6MzUtMDc6MDAsV04sV04sNjc5LDczV3xZTCxZLFBIWCxERU4sMjAxOC0xMS0yM1QxODoyMC0wNzowMCwyMDE4LTExLTIzVDIwOjA1LTA3OjAwLFdOLFdOLDE3Myw3M1ciLCJxdW90ZWRQcmljZSI6IjQwNi41OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkFOWSJ9",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssUEhYLDIwMTgtMTEtMjNUMTQ6NDAtMDg6MDAsMjAxOC0xMS0yM1QxNzozNS0wNzowMCxXTixXTiw2NzksNzNXfEtaQlAsSyxQSFgsREVOLDIwMTgtMTEtMjNUMTg6MjAtMDc6MDAsMjAxOC0xMS0yM1QyMDowNS0wNzowMCxXTixXTiwxNzMsNzNXIiwicXVvdGVkUHJpY2UiOiI0MjguNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJCVVMifQ==",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:15:2018-11-23",
+            "durationMinutes": 265,
+            "numberOfStops": 1,
+            "startingFromAmount": 265,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1440"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "15:40",
+          "arrivalTime": "19:00",
+          "duration": "2h 20m",
+          "stopDescription": "Nonstop",
+          "stopDescriptionOnSelect": "Nonstop",
+          "flightNumbers": "321",
+          "startingFromPrice": {
+            "amount": "182",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "182",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 937 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFNMTkNQTlIsUyxPQUssREVOLDIwMTgtMTEtMjNUMTU6NDAtMDg6MDAsMjAxOC0xMS0yM1QxOTowMC0wNzowMCxXTixXTiwzMjEsNzNIIiwicXVvdGVkUHJpY2UiOiIxODEuOTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "398",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLERFTiwyMDE4LTExLTIzVDE1OjQwLTA4OjAwLDIwMTgtMTEtMjNUMTk6MDAtMDc6MDAsV04sV04sMzIxLDczSCIsInF1b3RlZFByaWNlIjoiMzk3Ljk4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQU5ZIn0=",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "420",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssREVOLDIwMTgtMTEtMjNUMTU6NDAtMDg6MDAsMjAxOC0xMS0yM1QxOTowMC0wNzowMCxXTixXTiwzMjEsNzNIIiwicXVvdGVkUHJpY2UiOiI0MTkuOTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJCVVMifQ==",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:4:2018-11-23",
+            "durationMinutes": 140,
+            "numberOfStops": 0,
+            "startingFromAmount": 182,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1540"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "15:55",
+          "arrivalTime": "21:25",
+          "duration": "4h 30m",
+          "stopDescription": "1 Stop, LAS",
+          "stopDescriptionOnSelect": "1 Stop, Change planes LAS",
+          "flightNumbers": "2265/335",
+          "startingFromPrice": {
+            "amount": "265",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "5 left",
+              "price": {
+                "amount": "265",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,351 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFNMQTdQTlJPLFMsT0FLLExBUywyMDE4LTExLTIzVDE1OjU1LTA4OjAwLDIwMTgtMTEtMjNUMTc6MjAtMDg6MDAsV04sV04sMjI2NSw3Mzh8U0xBN1BOUk8sUyxMQVMsREVOLDIwMTgtMTEtMjNUMTg6NDAtMDg6MDAsMjAxOC0xMS0yM1QyMToyNS0wNzowMCxXTixXTiwzMzUsNzNXIiwicXVvdGVkUHJpY2UiOiIyNjQuODAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLExBUywyMDE4LTExLTIzVDE1OjU1LTA4OjAwLDIwMTgtMTEtMjNUMTc6MjAtMDg6MDAsV04sV04sMjI2NSw3Mzh8WUwsWSxMQVMsREVOLDIwMTgtMTEtMjNUMTg6NDAtMDg6MDAsMjAxOC0xMS0yM1QyMToyNS0wNzowMCxXTixXTiwzMzUsNzNXIiwicXVvdGVkUHJpY2UiOiI0MDYuNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssTEFTLDIwMTgtMTEtMjNUMTU6NTUtMDg6MDAsMjAxOC0xMS0yM1QxNzoyMC0wODowMCxXTixXTiwyMjY1LDczOHxLWkJQLEssTEFTLERFTiwyMDE4LTExLTIzVDE4OjQwLTA4OjAwLDIwMTgtMTEtMjNUMjE6MjUtMDc6MDAsV04sV04sMzM1LDczVyIsInF1b3RlZFByaWNlIjoiNDI4LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:16:2018-11-23",
+            "durationMinutes": 270,
+            "numberOfStops": 1,
+            "startingFromAmount": 265,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1555"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "16:00",
+          "arrivalTime": "23:25",
+          "duration": "6h 25m",
+          "stopDescription": "1 Stop, SNA",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SNA",
+          "flightNumbers": "202/1921",
+          "startingFromPrice": {
+            "amount": "205",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "3 left",
+              "price": {
+                "amount": "205",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,016 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfENMQUNQTlJPLEMsT0FLLFNOQSwyMDE4LTExLTIzVDE2OjAwLTA4OjAwLDIwMTgtMTEtMjNUMTc6MjAtMDg6MDAsV04sV04sMjAyLDczV3xDTEFDUE5STyxDLFNOQSxERU4sMjAxOC0xMS0yM1QyMDoxMC0wODowMCwyMDE4LTExLTIzVDIzOjI1LTA3OjAwLFdOLFdOLDE5MjEsNzNXIiwicXVvdGVkUHJpY2UiOiIyMDQuODAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNOQSwyMDE4LTExLTIzVDE2OjAwLTA4OjAwLDIwMTgtMTEtMjNUMTc6MjAtMDg6MDAsV04sV04sMjAyLDczV3xZTCxZLFNOQSxERU4sMjAxOC0xMS0yM1QyMDoxMC0wODowMCwyMDE4LTExLTIzVDIzOjI1LTA3OjAwLFdOLFdOLDE5MjEsNzNXIiwicXVvdGVkUHJpY2UiOiI0MDYuNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU05BLDIwMTgtMTEtMjNUMTY6MDAtMDg6MDAsMjAxOC0xMS0yM1QxNzoyMC0wODowMCxXTixXTiwyMDIsNzNXfEtaQlAsSyxTTkEsREVOLDIwMTgtMTEtMjNUMjA6MTAtMDg6MDAsMjAxOC0xMS0yM1QyMzoyNS0wNzowMCxXTixXTiwxOTIxLDczVyIsInF1b3RlZFByaWNlIjoiNDI4LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:11:2018-11-23",
+            "durationMinutes": 385,
+            "numberOfStops": 1,
+            "startingFromAmount": 205,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1600"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "16:25",
+          "arrivalTime": "22:10",
+          "duration": "4h 45m",
+          "stopDescription": "1 Stop, LAX",
+          "stopDescriptionOnSelect": "1 Stop, Change planes LAX",
+          "flightNumbers": "152/2150",
+          "startingFromPrice": {
+            "amount": "145",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "3 left",
+              "price": {
+                "amount": "145",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 681 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfEVMQVVQTlJPLEUsT0FLLExBWCwyMDE4LTExLTIzVDE2OjI1LTA4OjAwLDIwMTgtMTEtMjNUMTc6NTAtMDg6MDAsV04sV04sMTUyLDczV3xFTEFVUE5STyxFLExBWCxERU4sMjAxOC0xMS0yM1QxODo1NS0wODowMCwyMDE4LTExLTIzVDIyOjEwLTA3OjAwLFdOLFdOLDIxNTAsNzNXIiwicXVvdGVkUHJpY2UiOiIxNDQuODAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLExBWCwyMDE4LTExLTIzVDE2OjI1LTA4OjAwLDIwMTgtMTEtMjNUMTc6NTAtMDg6MDAsV04sV04sMTUyLDczV3xZTCxZLExBWCxERU4sMjAxOC0xMS0yM1QxODo1NS0wODowMCwyMDE4LTExLTIzVDIyOjEwLTA3OjAwLFdOLFdOLDIxNTAsNzNXIiwicXVvdGVkUHJpY2UiOiI0MDYuNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssTEFYLDIwMTgtMTEtMjNUMTY6MjUtMDg6MDAsMjAxOC0xMS0yM1QxNzo1MC0wODowMCxXTixXTiwxNTIsNzNXfEtaQlAsSyxMQVgsREVOLDIwMTgtMTEtMjNUMTg6NTUtMDg6MDAsMjAxOC0xMS0yM1QyMjoxMC0wNzowMCxXTixXTiwyMTUwLDczVyIsInF1b3RlZFByaWNlIjoiNDI4LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:1:2018-11-23",
+            "durationMinutes": 285,
+            "numberOfStops": 1,
+            "startingFromAmount": 145,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1625"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "16:30",
+          "arrivalTime": "22:00",
+          "duration": "4h 30m",
+          "stopDescription": "1 Stop, SAN",
+          "stopDescriptionOnSelect": "1 Stop, Change planes SAN",
+          "flightNumbers": "368/1904",
+          "startingFromPrice": {
+            "amount": "265",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": null,
+              "price": {
+                "amount": "265",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,351 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFNMQTdQTlJPLFMsT0FLLFNBTiwyMDE4LTExLTIzVDE2OjMwLTA4OjAwLDIwMTgtMTEtMjNUMTc6NTUtMDg6MDAsV04sV04sMzY4LDczV3xTTEE3UE5STyxTLFNBTixERU4sMjAxOC0xMS0yM1QxODo0NS0wODowMCwyMDE4LTExLTIzVDIyOjAwLTA3OjAwLFdOLFdOLDE5MDQsNzNXIiwicXVvdGVkUHJpY2UiOiIyNjQuODAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLFNBTiwyMDE4LTExLTIzVDE2OjMwLTA4OjAwLDIwMTgtMTEtMjNUMTc6NTUtMDg6MDAsV04sV04sMzY4LDczV3xZTCxZLFNBTixERU4sMjAxOC0xMS0yM1QxODo0NS0wODowMCwyMDE4LTExLTIzVDIyOjAwLTA3OjAwLFdOLFdOLDE5MDQsNzNXIiwicXVvdGVkUHJpY2UiOiI0MDYuNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssU0FOLDIwMTgtMTEtMjNUMTY6MzAtMDg6MDAsMjAxOC0xMS0yM1QxNzo1NS0wODowMCxXTixXTiwzNjgsNzNXfEtaQlAsSyxTQU4sREVOLDIwMTgtMTEtMjNUMTg6NDUtMDg6MDAsMjAxOC0xMS0yM1QyMjowMC0wNzowMCxXTixXTiwxOTA0LDczVyIsInF1b3RlZFByaWNlIjoiNDI4LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:17:2018-11-23",
+            "durationMinutes": 270,
+            "numberOfStops": 1,
+            "startingFromAmount": 265,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1630"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "18:00",
+          "arrivalTime": "23:30",
+          "duration": "4h 30m",
+          "stopDescription": "1 Stop, LAS",
+          "stopDescriptionOnSelect": "1 Stop, Change planes LAS",
+          "flightNumbers": "353/1331",
+          "startingFromPrice": {
+            "amount": "235",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "1 left",
+              "price": {
+                "amount": "235",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 1,184 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfE5MQTdQTlJPLE4sT0FLLExBUywyMDE4LTExLTIzVDE4OjAwLTA4OjAwLDIwMTgtMTEtMjNUMTk6MjUtMDg6MDAsV04sV04sMzUzLDczV3xOTEE3UE5STyxOLExBUyxERU4sMjAxOC0xMS0yM1QyMDo0NS0wODowMCwyMDE4LTExLTIzVDIzOjMwLTA3OjAwLFdOLFdOLDEzMzEsNzNXIiwicXVvdGVkUHJpY2UiOiIyMzQuODAiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJXR0EifQ==",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "407",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLExBUywyMDE4LTExLTIzVDE4OjAwLTA4OjAwLDIwMTgtMTEtMjNUMTk6MjUtMDg6MDAsV04sV04sMzUzLDczV3xZTCxZLExBUyxERU4sMjAxOC0xMS0yM1QyMDo0NS0wODowMCwyMDE4LTExLTIzVDIzOjMwLTA3OjAwLFdOLFdOLDEzMzEsNzNXIiwicXVvdGVkUHJpY2UiOiI0MDYuNTgiLCJpbnRlcm5hdGlvbmFsIjpmYWxzZSwiZmFyZVR5cGUiOiJBTlkifQ==",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "429",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssTEFTLDIwMTgtMTEtMjNUMTg6MDAtMDg6MDAsMjAxOC0xMS0yM1QxOToyNS0wODowMCxXTixXTiwzNTMsNzNXfEtaQlAsSyxMQVMsREVOLDIwMTgtMTEtMjNUMjA6NDUtMDg6MDAsMjAxOC0xMS0yM1QyMzozMC0wNzowMCxXTixXTiwxMzMxLDczVyIsInF1b3RlZFByaWNlIjoiNDI4LjU4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:13:2018-11-23",
+            "durationMinutes": 270,
+            "numberOfStops": 1,
+            "startingFromAmount": 235,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1800"
+          },
+          "isNextDayArrival": false
+        },
+        {
+          "departureTime": "19:55",
+          "arrivalTime": "23:15",
+          "duration": "2h 20m",
+          "stopDescription": "Nonstop",
+          "stopDescriptionOnSelect": "Nonstop",
+          "flightNumbers": "2900",
+          "startingFromPrice": {
+            "amount": "157",
+            "currencyCode": "USD",
+            "currencySymbol": "$"
+          },
+          "startingFromPriceSeniorOnly": null,
+          "dynamicWaiver": null,
+          "reasonIfUnavailable": null,
+          "discountedStartingFromPrice": null,
+          "discountedStartingFromPriceSeniorOnly": null,
+          "fares": [
+            {
+              "fareDescription": "Wanna Get Away",
+              "limitedSeats": "4 left",
+              "price": {
+                "amount": "157",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 797 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJXR0F8QURUfFRMTlVQTlIsVCxPQUssREVOLDIwMTgtMTEtMjNUMTk6NTUtMDg6MDAsMjAxOC0xMS0yM1QyMzoxNS0wNzowMCxXTixXTiwyOTAwLDczVyIsInF1b3RlZFByaWNlIjoiMTU2Ljk4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiV0dBIn0=",
+                "fareType": "WANNA_GET_AWAY",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Anytime",
+              "limitedSeats": null,
+              "price": {
+                "amount": "398",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 3,570 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJBTll8QURUfFlMLFksT0FLLERFTiwyMDE4LTExLTIzVDE5OjU1LTA4OjAwLDIwMTgtMTEtMjNUMjM6MTUtMDc6MDAsV04sV04sMjkwMCw3M1ciLCJxdW90ZWRQcmljZSI6IjM5Ny45OCIsImludGVybmF0aW9uYWwiOmZhbHNlLCJmYXJlVHlwZSI6IkFOWSJ9",
+                "fareType": "ANY_TIME",
+                "isSenior": false
+              }
+            },
+            {
+              "fareDescription": "Business Select",
+              "limitedSeats": null,
+              "price": {
+                "amount": "420",
+                "currencyCode": "USD",
+                "currencySymbol": "$"
+              },
+              "discountedPrice": null,
+              "earnPoints": "Earn 4,530 pts",
+              "reasonIfUnavailable": null,
+              "_meta": {
+                "productId":
+                  "eyJwcm9kdWN0SWQiOiJCVVN8QURUfEtaQlAsSyxPQUssREVOLDIwMTgtMTEtMjNUMTk6NTUtMDg6MDAsMjAxOC0xMS0yM1QyMzoxNS0wNzowMCxXTixXTiwyOTAwLDczVyIsInF1b3RlZFByaWNlIjoiNDE5Ljk4IiwiaW50ZXJuYXRpb25hbCI6ZmFsc2UsImZhcmVUeXBlIjoiQlVTIn0=",
+                "fareType": "BUSINESS_SELECT",
+                "isSenior": false
+              }
+            }
+          ],
+          "_meta": {
+            "cardId": "OAK:DEN:3:2018-11-23",
+            "durationMinutes": 140,
+            "numberOfStops": 0,
+            "startingFromAmount": 157,
+            "startingFromAmountSeniorOnly": 0,
+            "departureTime": "1955"
+          },
+          "isNextDayArrival": false
+        }
+      ]
+    },
+    "inboundPage": null,
+    "_links": {
+      "flightPricingPage": {
+        "href": "/v1/mobile-air-booking/page/flights/prices",
+        "method": "POST",
+        "body": {
+          "adultPassengers": null,
+          "seniorPassengers": null,
+          "currency": "USD",
+          "promoCodeToken": null,
+          "chaseSessionId": null
+        }
+      }
+    },
+    "_meta": {
+      "purchaseWithPoints": false,
+      "hasSenior": false,
+      "hasAdult": true,
+      "isPromoCodeApplied": false
+    }
+  }
+}

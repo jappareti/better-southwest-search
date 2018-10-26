@@ -1,35 +1,22 @@
-import * as R from "ramda";
+const getConnections = flight => {
+  // response is something like: ""stopDescriptionOnSelect": "1 Stop, Change planes SNA"
+  // this grabs the airport code from the string
+  // SWA doesn't specify both airport codes for 2 stops, only one of them
+  // So this should work with 2 stops as well.
+  if (flight.stopDescription === "Nonstop") return null;
 
-const getConnections = segments => {
-  if (R.length(segments) > 1) {
-    return R.last(segments).originationAirportCode;
-  } else {
-    return segments[0].stopAirportCodes[0];
-  }
+  // Splits the string "1 Stop, No plane change" to ['1 Stop', 'No plane change']
+  if (flight.stopDescriptionOnSelect.split(", ")[1] === "No plane change")
+    return null;
+
+  return flight.stopDescription.slice(-3);
 };
 
-const getNumberOfStops = segments => {
-  if (R.length(segments) > 1 || R.length(segments[0].stopAirportCodes) > 0) {
-    return 1;
-  } else {
-    return 0;
-  }
-};
-
-const hasDollars = R.has("currencyPrice");
-
-const getCurrencyType = fareProduct => {
-  return hasDollars(fareProduct) ? "Dollars" : "Points";
-};
-
-const getFareValue = fareProduct => {
-  let fareValue;
-  if (hasDollars(fareProduct)) {
-    fareValue = fareProduct.currencyPrice.totalFareCents;
-  } else {
-    fareValue = fareProduct.pointsPrice.redemptionPoints;
-  }
-  return fareValue !== 0 ? fareValue : Infinity;
+const getFareValue = meta => {
+  // If 0, then all flights are sold out.
+  // Return Infinity so that sorting works property on client
+  if (meta.startingFromAmount === 0) return Infinity;
+  return meta.startingFromAmount;
 };
 
 /**
@@ -53,19 +40,26 @@ const getFareValue = fareProduct => {
  * }
  */
 const transformFlightData = flight => {
+  // flight._meta.cardId is like the following string: "OAK:DEN:18:2018-11-23"
+  // The extra comma in the array destructuring ignores the `18` value becuase I don't know what it represents
+  const [
+    departureAirportCode,
+    arrivalAirportCode,
+    ,
+    departureDate
+  ] = flight._meta.cardId.split(":");
+  const { durationMinutes, numberOfStops } = flight._meta;
   return {
-    departureDateTime: flight.segments[0].departureDateTime,
-    departureAirportCode: flight.segments[0].originationAirportCode,
-    arrivalDateTime: R.last(flight.segments).arrivalDateTime,
-    arrivalAirportCode: R.last(flight.segments).destinationAirportCode,
-    connectionAirportCode: getConnections(flight.segments),
-    segments: flight.segments,
-    durationMinutes: flight.durationMinutes,
-    numberOfStops: getNumberOfStops(flight.segments),
-    currencyType: getCurrencyType(flight.fareProducts[0]),
-    fareValue: getFareValue(flight.fareProducts[2]),
-    seatsAvailable: parseInt(flight.fareProducts[2].seatsAvailable, 10),
-    productId: flight.fareProducts[2].productId
+    departureDateTime: `${departureDate}T${flight.departureTime}`,
+    arrivalDateTime: `${departureDate}T${flight.arrivalTime}`,
+    departureAirportCode,
+    arrivalAirportCode,
+    connectionAirportCode: getConnections(flight),
+    fareValue: getFareValue(flight._meta),
+    durationMinutes,
+    numberOfStops,
+    flightNumbers: flight.flightNumbers,
+    stopDescriptionOnSelect: flight.stopDescriptionOnSelect
   };
 };
 

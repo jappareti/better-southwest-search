@@ -83,7 +83,7 @@ class FlightSearchForm extends Component {
       initialValue: this.props.searchOptions.arrivalAirports
     };
     const currencyConfig = {
-      initialValue: this.props.searchOptions.currencyType
+      initialValue: this.props.searchOptions.currency
     };
     const formItemStyle = {
       marginBottom: "10px"
@@ -129,16 +129,16 @@ class FlightSearchForm extends Component {
           )}
         </FormItem>
         <FormItem {...formItemLayout} style={formItemStyle}>
-          {getFieldDecorator("currencyType", currencyConfig)(
+          {getFieldDecorator("currency", currencyConfig)(
             <RadioGroup size="large" style={{ width: "100%" }}>
               <RadioButton
-                value="Dollars"
+                value="USD"
                 style={{ width: "50%", textAlign: "center" }}
               >
                 $
               </RadioButton>
               <RadioButton
-                value="Points"
+                value="PTS"
                 style={{ width: "50%", textAlign: "center" }}
               >
                 Pts
