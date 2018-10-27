@@ -6,13 +6,22 @@ const sortFlights = (prop, flights) => {
 };
 
 const filterStops = R.curry((stops, flight) => {
-  return (
-    (stops === "nonStop" && flight.numberOfStops === 0) ||
-    (stops === "oneStop" &&
-      flight.numberOfStops <= 1 &&
-      flight.segments.length < 2) ||
-    stops === "anyStops"
-  );
+  // Any stops Filter
+  if (stops === "anyStops") return true;
+
+  // nonStop filter
+  if (stops === "nonStop") {
+    return flight.numberOfStops === 0;
+  }
+
+  // 1 stop or fewer (no plane change) filter
+  // Should include non-stops
+  if (stops === "oneStop") {
+    return (
+      flight.numberOfStops === 0 ||
+      (flight.numberOfStops >= 1 && flight.connectionAirportCode === null)
+    );
+  }
 });
 
 const filterTimes = R.curry((time, takeOff, flight) => {
